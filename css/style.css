@@ -89,13 +89,13 @@ h6 {
 }
 
 .back-to-top:focus {
-  background: #e0072f;
+  background: #E09307;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #e0072f;
+  background: #E09307;
   color: #fff;
 }
 
@@ -444,7 +444,7 @@ h6 {
   top: 0;
   left: 0;
   position: fixed;
-  background: rgba(35,94,9,0.80);
+  background: rgba(14,106,2,0.83);
   display: none;
 }
 
@@ -473,6 +473,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   overflow: hidden;
   position: relative;
+}
+@media (max-width: 768px) {
+	#intro {
+		
+  width: 100%;
+  height: 100vh;
+  background: url("../img/Fall-Fellowship-vertical.png") top center;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+	}
 }
 
 #intro:before {
@@ -1003,62 +1014,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 
-#contact .form #sendmessage {
-  color: #8B5F15;
-  border: 1px solid #8B5F15;
-  display: none;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #errormessage {
-  color: red;
-  display: none;
-  border: 1px solid red;
-  text-align: center;
-  padding: 15px;
-  font-weight: 600;
-  margin-bottom: 15px;
-}
-
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
-  display: block;
-}
-
-#contact .form .validation {
-  color: red;
-  display: none;
-  margin: 0 0 20px;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-#contact .form input,
-#contact .form textarea {
-  padding: 10px 14px;
-  border-radius: 0;
-  box-shadow: none;
-  font-size: 15px;
-}
-
-#contact .form button[type="submit"] {
-  background: #8B5F15;
-  border: 0;
-  padding: 10px 40px;
-  color: #fff;
-  transition: 0.4s;
-  border-radius: 50px;
-  cursor: pointer;
-}
-
-#contact .form button[type="submit"]:hover {
-  background: #e0072f;
-}
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
@@ -1071,7 +1026,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top {
-  background: #2C5714;
+  background: rgba(14,106,2,0.83);
   padding: 60px 0 30px 0;
 }
 
@@ -1195,7 +1150,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #e0072f;
+  background: #E09307;
 }
 
 #footer .copyright {
@@ -1264,7 +1219,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 @media (max-width: 991px) {
   #header {
-    background: rgba(68,208,36,0.98);
+    background: rgba(14,106,2,0.83));
     height: 70px;
     padding: 15px 0;
     transition: all 0.5s;
